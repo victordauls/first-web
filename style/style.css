@@ -1,0 +1,343 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 400vh;
+  background-color: honeydew;
+}
+.holder {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header {
+  height: 50px;
+  width: 95vw;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-list ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.top-list ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.senior-woman {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.child-container {
+  height: 100vh;
+  width: 95vw;
+  margin: 0 auto;
+  gap: 20px;
+  display: flex;
+}
+.aside-1 {
+  height: 139vh;
+  width: 20%;
+  background-color: aqua;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.aside-1 .Patient {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.chat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+}
+.chat {
+  height: 65px;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat .emily {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.center-div1 {
+  height: 140vh;
+  width: 60%;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.center-div {
+  height: 85vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.diagnosis-history {
+  background-color: white;
+  padding: 5px;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+#chart {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.center-div .chart {
+  height: 50%;
+  background-color: rgb(235, 210, 210);
+  margin: 15px;
+  border-radius: 10px;
+}
+.center-div .degree {
+  height: 50%;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.degree .respiratory {
+  height: 100%;
+  width: 30%;
+  background-color: lightpink;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+.degree .respiratory .image {
+  height: 90px;
+  width: 7vw;
+  background-color: white;
+  border-radius: 90px;
+}
+.rate {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.degree .temperature {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(245, 136, 136);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.degree .temperature .image {
+  height: 90px;
+  width: 7vw;
+  background-color: white;
+  border-radius: 90px;
+}
+.degree .heartrate {
+  height: 100%;
+  width: 30%;
+  background-color: mistyrose;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+.degree .heartrate .image {
+  height: 90px;
+  width: 7vw;
+  background-color: white;
+  border-radius: 90px;
+}
+.table {
+  height: 50vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  margin: 30px 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.diagnosis-list {
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+}
+table {
+  height: 80%;
+  width: 100%;
+  color: black;
+  padding: 10px;
+}
+table thead {
+  border: 1px solid black;
+}
+table thead th {
+  text-align: left;
+  font-size: 20px;
+  padding: 20px 0;
+  text-transform: capitalize;
+}
+tbody tr td {
+  text-align: left;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.right-aside {
+  height: 138vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.aside-2 {
+  height: 70%;
+  width: 100%;
+  background-color: rgb(137, 241, 137);
+  border-radius: 20px;
+}
+.jessica {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+.jessica-container {
+  height: 80%;
+  width: 80%;
+  border-radius: 100px;
+}
+.jessica div {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
+  padding: 20px;
+}
+.info .date-of-birth {
+  display: flex;
+  gap: 15px;
+  text-transform: capitalize;
+}
+.calender {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bold {
+  font-size: 15px;
+  font-weight: 600;
+}
+.emergency {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  text-align: center;
+}
+
+.button button {
+  width: 10vw;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  color: green;
+  border: none;
+}
+.down-aside {
+  height: 30%;
+  width: 100%;
+  background-color: rgb(137, 241, 137);
+  border-radius: 10px;
+}
+.down-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+}
+.down-aside .blood-test {
+  display: flex;
+
+  justify-content: space-between;
+  text-transform: capitalize;
+}
